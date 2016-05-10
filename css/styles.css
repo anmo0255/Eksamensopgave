@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+#redbox {
+	height:200px;
+	width: 200px;
+	background-color:red;
+	}
+	
+#redbox:active {
+	animation-name:RotateAnim;
+	animation-duration:1s;
+	}
+
+@keyframes RotateAnim{
+	from{transform:rotate(0deg); background-color:red;}
+	to{transform:rotate(360deg); background-color:green;}
+	}
+
+#menubar{
+	width:800px;
+	height:50px;
+	background-color:black;
+	color:rgba(255,255,255,1);
+	}
+	
+#listContainer{
+	width:800px;
+	overflow:hidden;
+	height:auto;
+	}
+#listContainer ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	}
+#listContainer ul li{
+	float:left;
+	width:200px;
+	height:50px;
+	margin-top:-30px;
+	background-color:red;
+	line-height:50px;
+	text-align:center;
+	vertical-align:middle;
+
+	transition:all .2s ease;
+	}
+#listContainer ul li:hover{
+	margin-top:0px;
+	transition:all .2 ease;
+	}
+
+#container {
+	width: 960px;
+	height: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+#top {
+	background-color: #4d3f34;
+	float: left;
+	height: 40px;
+	width: 960px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #eae8dc;
+}
+.FlagE {
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.FlagG {
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.topText {
+	margin-right: 30px;
+	float:right;
+	margin-top: 15px;
+	}
+
+header {
+	background-color: #aa9f8d;
+	float: left;
+	height: 150px;
+	width: 960px;
+	text-align: center;
+}
+.headerSpa {
+	font-family: pristina;
+	font-size: 48px;
+	color: #4d3f34;
+
+
+	}
+	
+.headerWellness {
+	font-family: pristina;
+	font-size: 48px;
+	color: #eae8dc;
+
+	}
+.headerStars {
+	font-family: pristina;
+	font-size: 60px;
+	color: #4d3f34;
+	}
+nav {
+	background-color: #aa9f8d;
+	float: left;
+	height: 30px;
+	width: 930px;
+	color: #eae8dc;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+ul, li {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+li {
+display: inline;
+}
+
+
+a:link {
+	font-weight: bold;
+	color: #eae8dc;
+text-decoration:none;
+
+}
+a:visited {
+	font-weight: bold;
+	color: #eae8dc;
+
+}
+a:hover {
+	font-weight: bold;
+	color: #bb8b7f;
+}
+.link, a:link {
+	font-weight: bold;
+	color: #4d3f34
+text-decoration:none;
+
+}
+.link, a:visited {
+	font-weight: bold;
+	color: #4d3f34;
+
+}
+.link, a:hover {
+	font-weight: bold;
+	color: #bb8b7f;
+}
+
+.streg {
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+section {
+	background-color: #eae8dc;
+	float: left;
+	height: 410px;
+	width: 960px;
+	background-image: url(../images/BaggrundSection_04.png);
+	background-repeat: no-repeat;
+}
+#slideshow {
+	background-color: #ff9900;
+	float: left;
+	height: 360px;
+	width: 510px;
+	margin-right: 220px;
+	margin-left: 220px;
+	margin-top: 35px;
+	border: thick solid #FFFFFF;
+}
+#indhold {
+	background-color: #eae8dc;
+	float: left;
+	height: 300px;
+	width: 960px;
+}
+#billede1 {
+	background-color: #FFFFFF;
+	float: left;
+	height: 230px;
+	width: 170px;
+	margin-top: 20px;
+	margin-left: 30px;
+	border: thin solid #4d3f34;
+
+}
+#billede2 {
+	background-color: #FFFFFF;
+	float: left;
+	height: 230px;
+	width: 170px;
+	margin-top: 20px;
+	margin-left: 65px;
+	border: thin solid #4d3f34;
+}
+#billede3 {
+	background-color: #FFFFFF;
+	float: left;
+	height: 230px;
+	width: 170px;
+	margin-top: 20px;
+	margin-left: 80px;
+	border: thin solid #4d3f34;
+}
+#billede4 {
+	background-color: #FFFFFF;
+	float: right;
+	height: 230px;
+	width: 170px;
+	margin-top: 20px;
+	margin-right: 30px;
+	border: thin solid #4d3f34;
+}
+.billedtekst {
+	font-family: Pristina;
+	font-size: 30px;
+	color: #4d3f34;
+	padding-top: 20px;
+	text-align: center;
+	}
+.link {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	padding-left:55px;
+	}
+footer {
+	background-color: #4d3f34;
+	float: left;
+	height: 25px;
+	width: 960px;
+	padding-top: 15px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aa9f8d;
+	font-weight: bold;
+}
